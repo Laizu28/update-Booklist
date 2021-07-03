@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>BookList2</title>
+</head>
+<body>
+   <section class="container">
+
+     <div class="main-wrap">
+         <h1 class="text-center">Top Books For <span>Learn</span> Programming</h1>
+            <!---adding bootstrap for input box-->
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Title</label>
+                <input type="text" class="form-control" id="Title">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Author</label>
+                <input type="text" class="form-control" id="Author" >
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Year</label>
+                <input type="text" class="form-control" id="Year">
+            </div>
+            <div class="mb-3">
+                <input type="submit" class="form-control" id="btn" value = "Add Book">
+            </div>
+        </div>
+
+            <!---adding bootstrap for input box-->
+            <!---adding bootstrap for table box-->
+            <div class="container">
+                <table class="table">
+                    <thead>
+                      <tr>
+
+                        <th scope="col">Book</th>
+                        <th scope="col">Author</th>
+                        <th scope="col">Year</th>
+                      </tr>
+                    </thead>
+                    <tbody id="bookList">
+                     
+                    </tbody>
+                  </table>
+
+            <!---adding bootstrap for table box-->
+
+
+
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+ <script src="hello.js"></script>   
+</body>
+</html>
